@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+@font-face {
+    font-family: 'PTSans-NarrowBold';
+    src: local('PTSans-NarrowBold');
+    src: url('fonts/PTSans-NarrowBold.svg') format('svg'),
+    url('fonts/PTN77F.eot') format('embedded-opentype'),
+    url('fonts/PTSans-NarrowBold.woff') format('woff'),
+    url('fonts/PTN77F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    background: black;
+}
+
+.header__logo {
+    background: transparent  url("icons/logo.png") center center no-repeat;
+    height: 24px;
+    width: 111px;
+}
+
+
+.header__submenu-list-item {
+    padding: 28px 0 30px 0;
+}
+.header__submenu-list-item:hover {
+    background-color: #242424;
+}
+
+.header__submenu-list-link {
+    font-family: PTSans-NarrowBold, Verdana, sans-serif ;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+.header__submenu-list-link:active {
+    padding-bottom: 25px;
+    border-bottom: 3px solid white;
+}
