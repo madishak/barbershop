@@ -212,10 +212,10 @@ blockquote, q {
     text-decoration: none;
     margin-top: 33px;
 }
-.news__button:hover, .slider__button:hover, .contacts__button:hover, .feedback__button:hover {
-    background: #663d15;
-}
-.news__button:active, .slider__button:active, .contacts__button:active, .feedback__button:active {
+.news__button:hover, .news__button:active,
+.slider__button:hover,  .slider__button:active,
+.contacts__button:hover, .contacts__button:active,
+.feedback__button:hover, .feedback__button:active {
     background: #663d15;
 }
 
@@ -292,3 +292,85 @@ blockquote, q {
     margin-top: 0;
 }
 
+.footer {
+    background-color: #252525;
+    color: white;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 944px;
+    padding: 60px 0 42px 0;
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer__text-link {
+    color: white;
+}
+
+.sociables {
+    width: 143px;
+}
+
+.sociables__slogan {
+    text-transform: uppercase;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.sociables-vk {
+    display: inline-block;
+    background: black url("icons/vk.png") center center no-repeat;
+    width: 43px;
+    height: 43px;
+    margin-right: 3px;
+}
+.sociables-vk:hover {
+    background: white url("icons/vk_hover.png") center center no-repeat;
+}
+.sociables-facebook {
+    display: inline-block;
+    background: black url("icons/facebook.png") center center no-repeat;
+    width: 43px;
+    height: 43px;
+    margin-right: 3px;
+}
+.sociables-facebook:hover {
+    background: white url("icons/facebook_hover.png") center center no-repeat;
+}
+.sociables-insta {
+    display: inline-block;
+    background: black url("icons/insta.png") center center no-repeat;
+    width: 43px;
+    height: 43px;
+}
+.sociables-insta:hover {
+    background: white url("icons/insta_hover.png") center center no-repeat;
+}
+
+.footer__copy-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 37px;
+}
+
+.footer__copy-link {
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    padding: 14px 23px;
+    text-decoration: none;
+}
+
+
+.footer__copy-link:hover {
+    background-color: white;
+    color: black;
+}
