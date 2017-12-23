@@ -52,6 +52,7 @@ blockquote, q {
 }
 
 .body {
+    font-family: PTSans-NarrowBold, Verdana, sans-serif;
     background: #070707 url("images/body-background.png") top left no-repeat;
     background-size: cover;
     width: 100%;
@@ -163,3 +164,131 @@ blockquote, q {
     width: 275px;
     line-height: 24px;
 }
+
+.news {
+    padding-top: 82px;
+    font-size: 14px;
+}
+
+.inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 944px;
+    background: white;
+}
+
+.container-left {
+    padding: 53px 0 47px 79px;
+}
+
+.slider, .feedback {
+    padding: 53px 0 47px 90px;
+}
+
+.news__title, .slider__title, .contacts__title, .feedback__title {
+    font-family: PTSans-NarrowBold, Verdana, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.news__text {
+    line-height: 24px;
+    width: 349px;
+    padding: 33px 36px 0 0;
+}
+
+.news__button, .slider__button, .contacts__button, .feedback__button {
+    display: inline-block;
+    background: black;
+    color: white;
+    width: 141px;
+    padding: 17px 0;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 33px;
+}
+.news__button:hover, .slider__button:hover, .contacts__button:hover, .feedback__button:hover {
+    background: #663d15;
+}
+.news__button:active, .slider__button:active, .contacts__button:active, .feedback__button:active {
+    background: #663d15;
+}
+
+.vertical-line {
+    margin: auto 0;
+    background: transparent url("images/vertical-line.png") center center no-repeat;
+    width: 8px;
+    height: 278px;
+}
+
+.slider__image {
+    background: black url("images/room.png") center center no-repeat;
+    width: 285px;
+    height: 166px;
+    margin: 39px 0 61px 5px;
+}
+
+.slider__button {
+    margin-top: 0;
+}
+
+.slider__button, .contacts__button {
+    margin-right: 20px;
+}
+.slider__button:last-child, .contacts__button:last-child {
+    margin-right: 0;
+}
+.contacts {
+    padding: 34px 0 60px 0;
+    font-size: 14px;
+}
+
+.contacts__text {
+    padding: 33px 102px 0 0 ;
+    line-height: 24px;
+
+}
+
+
+.feedback__text {
+    padding: 33px 0 27px 0;
+    width: 296px;
+    line-height: 24px;
+}
+
+.feedback__inner {
+    display: block;
+    padding-bottom: 21px;
+
+}
+
+.feedback__input {
+    display: inline-block;
+    width: 108px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: PTSans-NarrowBold, Verdana, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.feedback__input:last-child {
+    margin-right: 0;
+}
+.feedback__input:focus {
+    border: 2px solid #663d15;
+}
+
+.feedback__button {
+    display: block;
+    width: 305px;
+    margin-top: 0;
+}
+
