@@ -317,3 +317,7 @@ blockquote, q {
     background: white;
     color: black;
 }
+
+.footer {
+    background: #252525 url("images/footer__shop__bg.png") center center;
+}
