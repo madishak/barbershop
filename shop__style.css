@@ -49,6 +49,14 @@ blockquote, q {
     height: 100%;
 }
 
+.header__logo {
+    background: transparent url("icons/logo.png") center center no-repeat;
+    height: 24px;
+    width: 111px;
+    margin: 23px 20px 0 0 ;
+
+}
+
 .breadcrumbs__inner {
     width: 940px;
     margin: 0 auto;
