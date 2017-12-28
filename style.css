@@ -201,7 +201,7 @@ blockquote, q {
 }
 
 .news__button, .slider__button, .contacts__button, .booking__button, .sidebar__button,
-.goods__button{
+.goods__button, .pagination-link{
     display: inline-block;
     background: black;
     color: white;
@@ -220,7 +220,8 @@ blockquote, q {
 .contacts__button:hover, .contacts__button:active,
 .booking__button:hover, .booking__button:active,
 .sidebar__button:hover, .sidebar__button:active,
-.goods__button:hover, .goods__button:active{
+.goods__button:hover, .goods__button:active,
+.pagination-link:hover{
     background: #663d15;
 }
 

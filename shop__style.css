@@ -301,3 +301,19 @@ blockquote, q {
     margin-top: 0;
     height: 12px;
 }
+
+.pagination {
+    padding: 45px 0 50px 0;
+}
+
+.pagination-link {
+    padding: 17px 0;
+    width: 43px;
+    height: 9px;
+    margin: 0 7px 0 0;
+}
+
+.pagination-link:active {
+    background: white;
+    color: black;
+}
