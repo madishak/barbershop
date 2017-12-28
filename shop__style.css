@@ -189,7 +189,7 @@ blockquote, q {
     content: "бритвенные принадлежности";
     display: block;
     margin-left: 42px;
-    vertical-align: -2px;
+    vertical-align: -1px;
     line-height: 18px;
     text-transform: uppercase;
     width: 50px;
@@ -197,4 +197,107 @@ blockquote, q {
 
 .sidebar__button {
     width: 112px;
+}
+
+.goods {
+    display: flex;
+    flex-direction: column;
+}
+
+.goods__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.goods__inner:last-child {
+    padding-bottom: 0;
+}
+.goods__box {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.goods__box:hover {
+    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.goods__box:first-child {
+    margin-left: 0;
+}
+
+
+.goods__image-travel_kit {
+    background: transparent url("images/travel_kit.png") center center no-repeat;
+    height: 167px;
+    width: 220px;
+}
+
+.goods__image-conditioner {
+    background: transparent url("images/conditioner.png") center center no-repeat;
+    height: 167px;
+    width: 220px;
+}
+
+.goods__image-gel {
+    background: transparent url("images/gel.png") center center no-repeat;
+    height: 167px;
+    width: 220px;
+}
+
+.goods__image-clay {
+    background: transparent url("images/clay.png") center center no-repeat;
+    height: 167px;
+    width: 220px;
+}
+
+.goods__image-gel_crew {
+    background: transparent url("images/gel_crew.png") center center no-repeat;
+    height: 167px;
+    width: 220px;
+}
+
+.goods__image-shaving_kit {
+    background: transparent url("images/shaving_kit.png") center center no-repeat;
+    height: 167px;
+    width: 220px;
+}
+
+.goods__box-bottom {
+    background: white;
+    padding-bottom: 16px;
+}
+
+.goods__box-title {
+    padding: 17px 0 8px 17px;
+
+}
+
+.goods__box-caption {
+    padding: 0 0 17px 17px;
+    text-transform: uppercase;
+}
+
+.goods__box-inner {
+    width: 187px;
+    margin: 0 auto;
+    background: #e5e5e5;
+    height: 45px;
+}
+
+.goods__box-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 103px;
+    padding: 16px 0 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+}
+.goods__button {
+    display: inline-block;
+    vertical-align: top;
+    width: 79px;
+    padding: 16px 0 17px 0;
+    margin-top: 0;
+    height: 12px;
 }
