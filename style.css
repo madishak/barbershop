@@ -200,7 +200,7 @@ blockquote, q {
 
 }
 
-.news__button, .slider__button, .contacts__button, .booking__button {
+.news__button, .slider__button, .contacts__button, .booking__button, .sidebar__button {
     display: inline-block;
     background: black;
     color: white;
@@ -212,11 +212,13 @@ blockquote, q {
     margin-top: 33px;
     font-family: inherit;
     font-size: 14px;
+    border: none;
 }
 .news__button:hover, .news__button:active,
 .slider__button:hover,  .slider__button:active,
 .contacts__button:hover, .contacts__button:active,
-.booking__button:hover, .booking__button:active {
+.booking__button:hover, .booking__button:active,
+.sidebar__button:hover, .sidebar__button:active{
     background: #663d15;
 }
 
