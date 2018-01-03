@@ -216,7 +216,7 @@ blockquote, q {
 }
 
 .news__button, .slider__button, .contacts__button, .booking__button, .sidebar__button,
-.goods__button, .pagination-link{
+.goods__button, .pagination-link, .item__button{
     display: inline-block;
     background: black;
     color: white;
@@ -236,7 +236,7 @@ blockquote, q {
 .booking__button:hover, .booking__button:active,
 .sidebar__button:hover, .sidebar__button:active,
 .goods__button:hover, .goods__button:active,
-.pagination-link:hover{
+.pagination-link:hover, .item__button:hover{
     background: #663d15;
 }
 
@@ -514,14 +514,14 @@ blockquote, q {
     text-transform: uppercase;
 }
 
-.goods__box-inner {
+.goods__box-inner, .item__wrapper {
     width: 187px;
     margin: 0 auto;
     background: #e5e5e5;
     height: 45px;
 }
 
-.goods__box-text {
+.goods__box-text,.item__wrapper-text{
     display: inline-block;
     vertical-align: top;
     width: 103px;
@@ -530,7 +530,7 @@ blockquote, q {
     text-transform: uppercase;
     height: 45px;
 }
-.goods__button {
+.goods__button , .item__button{
     display: inline-block;
     vertical-align: top;
     width: 79px;
@@ -652,6 +652,81 @@ blockquote, q {
 .price__paragraph:last-child {
     width: 380px;
     margin-right: 83px;
+}
+
+.item-content {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__inner-img, .item__inner-desc{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.item__image-main, .item__image {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.item__image-main:hover, .item__image:hover {
+    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.item__gallery {
+    padding: 21px 0 50px 0;
+}
+
+.item__image-link {
+    margin-right: 20px;
+}
+.item__image-link:last-child {
+    margin-right: 0;
+}
+
+.item-top {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.item-top-desc {
+    color: #aeaeae;
+}
+
+.item__paragraph {
+    width: 394px;
+    text-transform: uppercase;
+    padding: 44px 0 40px 0;
+    line-height: 24px;
+}
+
+.item__paragraph-link {
+    text-decoration: none;
+    color: black;
+}
+
+.item__wrapper {
+    margin: 0;
+}
+
+.item__nav {
+    text-transform: uppercase;
+}
+
+.item__nav-title {
+    padding: 70px 0 42px 0;
+    font-size: 24px;
+}
+
+.item__nav-item {
+    padding-bottom: 10px;
+}
+.item__nav-item:last-child {
+    padding-bottom: 0;
 }
 
 .footer-home {
