@@ -316,17 +316,17 @@ blockquote, q {
     margin-top: 0;
 }
 
-
-.breadcrumbs__inner {
+.page-header {
     width: 940px;
     margin: 0 auto;
-}
-
-.breadcrumbs__title {
     font-size: 30px;
     color: black;
     text-transform: uppercase;
     padding-top: 63px;
+}
+.breadcrumbs__inner {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .breadcrumbs__nav {
@@ -335,22 +335,28 @@ blockquote, q {
 
 .breadcrumbs__nav-item {
     display: inline-block;
+    color: black;
+    background: transparent url("icons/nav-rhombus.png") center right no-repeat;
+    padding: 0 29px 0 18px  ;
+
 }
+.breadcrumbs__nav-item:first-child {
+    padding-left: 0;
+}
+
 
 .breadcrumbs__nav-link {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
-    margin-right: 18px ;
+    color: inherit;
 }
 
-.breadcrumbs__nav-link:last-child {
+
+.breadcrumbs__nav-item:last-child {
+    background: none;
     color: #aba9a7;
 }
 
-.breadcrumbs__nav-image {
-    margin-right: 18px;
-}
 
 
 .shop-content {
@@ -360,8 +366,9 @@ blockquote, q {
     justify-content: space-between;
 }
 
-.sidebar__checkbox {
-    padding-bottom: 37px;
+
+.sidebar {
+    width: 240px;
 }
 
 .sidebar__checkbox-title, .sidebar__radio-title {
@@ -370,7 +377,9 @@ blockquote, q {
     font-size: 24px;
     padding-bottom: 35px;
 }
-
+.sidebar__radio-title {
+    padding-top: 37px;
+}
 .sidebar__checkbox-label {
     position: relative;
     cursor: pointer;
@@ -475,15 +484,17 @@ blockquote, q {
 
 .goods__inner {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+
+
 }
 .goods__inner:last-child {
     padding-bottom: 0;
 }
 .goods__box {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
+    margin: 0 0 20px 20px;
 }
 
 .goods__box:hover {
@@ -541,6 +552,9 @@ blockquote, q {
 
 .pagination {
     padding: 45px 0 50px 0;
+    margin-left: 50px;
+
+
 }
 
 .pagination-link {
@@ -589,7 +603,7 @@ blockquote, q {
     padding-top: 0;
 }
 
-.price__nav-title, .price__table-title {
+.price__product-complect-title, .price__table-title {
     width: 239px;
     line-height: 30px;
     font-size: 24px;
@@ -598,16 +612,18 @@ blockquote, q {
     text-align: left;
 }
 
-.price__nav-image {
-    margin-right: 10px;
-}
 
-.price__nav-item {
+.price__product-complect-item {
     text-transform: uppercase;
     padding-bottom: 27px;
 }
 
-.price__nav-item:last-child {
+.price__product-complect-item:before {
+    content: url("icons/nav-rhombus.png");
+    margin-right: 10px;
+}
+
+.price__product-complect-item:last-child {
     padding-bottom: 0;
 }
 
@@ -713,22 +729,26 @@ blockquote, q {
     margin: 0;
 }
 
-.item__nav {
+.product-complect {
     text-transform: uppercase;
 }
 
-.item__nav-title {
+.product-complect__title {
     padding: 70px 0 42px 0;
     font-size: 24px;
 }
 
-.item__nav-item {
+.product-complect__item {
+
     padding-bottom: 10px;
 }
-.item__nav-item:last-child {
+.product-complect__item:last-child {
     padding-bottom: 0;
 }
-
+.product-complect__item:before {
+    content:  url("icons/nav-rhombus.png") ;
+    margin-right: 10px;
+}
 .footer-home {
     background: #252525 url("images/footer__bg.png") center center;
     color: white;
